@@ -1,0 +1,283 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.box-1 {
+    background-color: #191919;
+}
+
+.box-2 {
+    background-color: #d8d8d8;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    filter: grayscale(0.3);
+    border: #d8d8d8 solid 5px;
+    margin-top: 30px;
+    margin-left: 67px;
+}
+
+h1 {
+    color: #d8d8d8;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    color: #d8d8d8;
+    opacity: 0.5;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+.box-1 h5 {
+    color: #d8d8d8;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-size: 17px;
+    text-align: center;
+}
+
+.profile-content {
+    height: 250px;
+    width: 325px;
+    margin-left: 40px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+p {
+    color: #d8d8d8;
+    font-family: "Roboto";
+    font-size: 17px;
+    text-align: justify;
+}
+
+.about-me {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box-1 h3 {
+    margin: 20px;
+    color: #d8d8d8;
+    font-family: "Roboto";
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+.about-left p {
+    margin-left: 40px;
+    opacity: 0.8;
+}
+
+.about-right p {
+    opacity: 0.8;
+    align-items: center;
+}
+
+.social {
+    margin-bottom: 20px;
+}
+
+.face {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    opacity: 0.8;
+    color: #0bb5f4;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+}
+
+.icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.data {
+    color: #b1eaff;
+}
+
+.semi-bold {
+    font-weight: 500;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.social .face .data a {
+    text-decoration: none;
+}
+
+.social .face .data a:hover {
+    color: aqua;
+}
+
+.box-2 h1 {
+    color: #191919;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 70px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-weight: lighter;
+    padding: 0;
+}
+
+hr {
+    width: 800px;
+    background-color: #191919;
+    height: 3px;
+    border: 0;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+.content h3 {
+    color: #191919;
+    margin-top: 0;
+    margin-left: 70px;
+    font-size: 15px;
+    text-align: left;
+    font-size: 15px;
+    font-family: "Roboto";
+    text-transform: uppercase;
+}
+
+.content h4 {
+    color: #191919;
+    text-transform: none;
+    text-align: left;
+    margin-left: 70px;
+    font-size: 14px;
+}
+
+.content p {
+    color: #191919;
+    text-align: left;
+    margin-left: 70px;
+    font-size: 17px;
+}
+
+.skills-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: #191919;
+}
+
+.skills-content p {
+    color: #191919;
+    text-align: left;
+    margin-left: 70px;
+    font-size: 17px;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #F0FF4D;
+    border: 0.5px solid #191919;
+    display: inline-block;
+    margin-top: 11px;
+}
+
+.dot-2 {
+    height: 19px;
+    width: 19px;
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    display: inline-block;
+    border: 0.5px solid #191919;
+    margin-top: 11px;
+}
+
+.skills-3 p {
+    margin-left: 0;
+}
+
+.language-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: #191919;
+}
+
+.language-content p {
+    color: #191919;
+    text-align: left;
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+.checked {
+    color: #F0FF4D;
+}
+
+.star {
+    margin-top: 15px;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.date {
+    font-size: 17px;
+    margin-left: 70px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.act-1 p {
+    color: #191919;
+    text-align: left;
+    margin-left: 70px;
+    font-size: 15px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.certificate a {
+    text-decoration: none;
+    color: #191919;
+    font-size: 17px;
+    margin-left: 70px;
+}
+
+.certificate a:hover {
+    color: red;
+}
+
+.hobbies p {
+    color: #191919;
+    text-align: left;
+    margin-left: 70px;
+    font-size: 15px;
+}
+
+#hrs {
+    width: 920px;
+    color: black;
+}
